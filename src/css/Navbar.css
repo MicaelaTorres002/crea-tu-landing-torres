@@ -1,0 +1,12 @@
+.navbar-container {
+    background-color: rgb(238, 165, 165);
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anchor.nav {
+    text-decoration: none;
+    cursor: pointer;
+}
