@@ -6,10 +6,10 @@ const Navbar = ()=> {
     return(
         <nav className='navbar-container'>
             <img src="#" alt="#"/>
-            <a className='anchor.nav' href="#"></a>
-            <a className='anchor.nav' href="#"></a>
-            <a className='anchor.nav' href="#"></a>
-            <a className='anchor.nav' href="#"></a>
+            <a className='anchor.nav' href="#">Verano</a>
+            <a className='anchor.nav' href="#">Zapatillas</a>
+            <a className='anchor.nav' href="#">Botas</a>
+            <a className='anchor.nav' href="#">Zapatos</a>
             <CartWidget/>
         </nav>
     )

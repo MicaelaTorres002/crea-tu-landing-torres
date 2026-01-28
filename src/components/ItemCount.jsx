@@ -16,9 +16,9 @@ const ItemCount = (stock)=> {
     console.log("ItemCount")
     return(
         <div>
-            <button onClick={restar}>-</button>
+            <button className="btn btn-danger" onClick={restar}>-</button>
             <span>{counter}</span>
-            <button onClick={sumar}>+</button>
+            <button className="btn btn-success" onClick={sumar}>+</button>
         </div>
     )
 }
